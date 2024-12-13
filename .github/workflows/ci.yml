@@ -11,7 +11,7 @@ jobs:
   
     strategy:
       matrix:
-        node-version: ['18.x', '20.x']
+        node-version: ['14.x']
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     
     services:
@@ -53,4 +53,3 @@ jobs:
         ACCESS_TOKEN_KEY: secret
         REFRESH_TOKEN_KEY: terces
         ACCESS_TOKEN_AGE: 3600
-        
